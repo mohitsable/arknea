@@ -1,0 +1,40 @@
+:host {
+  background-color: var(--tile-color);
+  // height: 60vh;
+  width: 80vw;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+td,
+th {
+  width: 25%;
+}
+
+.mat-cell {
+  background-color: white;
+  color: black;
+}
+.mat-header-cell {
+  background-color: var(--header-color);
+  color: white;
+}
+// ::ng-deep .mat-paginator-container {
+//   background-color: white !important;
+//   color: black;
+// }
+
+.table-outer-container {
+  padding: 10px;
+}

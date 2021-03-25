@@ -1,0 +1,20 @@
+:host {
+  background-color: var(--tile-color);
+  height: 250px;
+  width: 18vw;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  padding: 10px;
+}
+.gender-data {
+  display: flex;
+  justify-content: space-around;
+}
+::ng-deep .mat-progress-bar-buffer {
+  background-color: #e4e4e4 !important;
+}
+::ng-deep .mat-progress-bar-fill::after {
+  background-color:var(--header-color);
+}
